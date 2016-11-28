@@ -5,7 +5,7 @@ tic
 
 thre_qm = 5;%set the quadralateral threshold
 % =====load image======
-imgname = 'image1';
+imgname = 'highResolutionLargeScaleImage';
 imgnameHZ=[imgname,'.jpg'];
 
 
@@ -20,7 +20,7 @@ fprintf('detecting MSER regions...\n');
 
 
 %=================================A extract MSERS features===============================
-regions=detectMSERFeatures(Igray,'ThresholdDelta',3,'RegionAreaRange',[4, 10000],'MaxAreaVariation',0.2);
+regions=detectMSERFeatures(Igray,'ThresholdDelta',3,'RegionAreaRange',[4, 10000],'MaxAreaVariation',0.25);
 plot(regions);
 title('Results of MSERs');
 
