@@ -5,7 +5,7 @@ tic
 
 thre_qm = 5;%set the quadralateral threshold
 % =====load image======
-imgname = 'highResolutionLargeScaleImage';
+imgname = 'image1';
 imgnameHZ=[imgname,'.jpg'];
 
 
